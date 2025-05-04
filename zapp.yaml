@@ -1,0 +1,12 @@
+name: wcaz
+description: Basic file for wcaz transform project
+author: IBM
+
+propertyGroups:
+  - name: cobol-copybooks
+    language: cobol
+    libraries:
+      - name: syslib
+        type: local
+        locations:
+          - "**/copybooks"
